@@ -1,9 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+html {
+  background-image: url('/assets/images/pattern-4.png');
+  background-repeat: repeat;
+  background-color: #ddd;
+}
+
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  font:20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#888;
   font-weight:300;
 }
 
@@ -46,8 +52,12 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:95%;
+  height: 1500px;
   margin:0 auto;
+  border:0 solid red;
+  background:none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+  padding:10px;
 }
 
 blockquote {
@@ -65,7 +75,7 @@ code, pre {
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;  
+  background: #f8f8f8;
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
@@ -96,17 +106,18 @@ img {
 }
 
 header {
-  width:270px;
+  width:320px;
   float:left;
   position:fixed;
+  border:0 solid blue;
 }
 
 header ul {
   list-style:none;
   height:40px;
-  
+
   padding:0;
-  
+
   background: #eee;
   background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -114,7 +125,7 @@ header ul {
   background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
   background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
   background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  
+
   border-radius:5px;
   border:1px solid #d2d2d2;
   box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
@@ -160,9 +171,10 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:70%;
   float:right;
   padding-bottom:50px;
+  border:0 solid green;
 }
 
 small {
@@ -177,40 +189,56 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:320px;
   float:left;
   position:fixed;
   bottom:50px;
+  border:0 solid yellow;
 }
 
-@media print, screen and (max-width: 960px) {
-  
+.clearfix {
+  overflow: auto;
+}
+
+.row {
+  border-bottom:0 solid #ed145b;
+  margin:0 0 20px 0;
+  padding:10px;
+  background-color:rgba(255,255,255,0.5);
+}
+
+.row:hover {
+  background-color:rgba(255,255,255,0.8);
+}
+
+@media print, screen and (max-width: 1200px) {
+
   div.wrapper {
     width:auto;
     margin:0;
   }
-  
+
   header, section, footer {
     float:none;
     position:static;
     width:auto;
   }
-  
+
   header {
     padding-right:320px;
   }
-  
+
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
-  
+
   header a small {
     display:inline;
   }
-  
+
   header ul {
     position:absolute;
     right:50px;
@@ -222,15 +250,15 @@ footer {
   body {
     word-wrap:break-word;
   }
-  
+
   header {
     padding:0;
   }
-  
+
   header ul, header p.view {
     position:static;
   }
-  
+
   pre, code {
     word-wrap:normal;
   }
@@ -240,7 +268,7 @@ footer {
   body {
     padding:15px;
   }
-  
+
   header ul {
     display:none;
   }
