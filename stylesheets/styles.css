@@ -13,6 +13,33 @@ body {
   font-weight:300;
 }
 
+body a{
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timin: ease-out;
+  -o-transition-duration: 0.3s;
+  -o-transition-timin: ease-out;
+  -moz-transition-duration: 0.3s;
+  -moz-transition-timin: ease-out;
+  -ms-transition-duration: 0.3s;
+  -ms-transition-timin: ease-out;
+  transition-duration: 0.3s;
+  transition-timing: ease-out;
+}
+
+body a:hover{
+  color: #ed145b !important;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timin: ease-out;
+  -o-transition-duration: 0.3s;
+  -o-transition-timin: ease-out;
+  -moz-transition-duration: 0.3s;
+  -moz-transition-timin: ease-out;
+  -ms-transition-duration: 0.3s;
+  -ms-transition-timin: ease-out;
+  transition-duration: 0.3s;
+  transition-timing: ease-out;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
@@ -211,7 +238,7 @@ footer {
   background-color:rgba(255,255,255,0.8);
 }
 
-@media print, screen and (max-width: 1200px) {
+@media print, screen and (max-width: 1280px) {
 
   div.wrapper {
     width:auto;
