@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 html {
-  background-image: url('assets/images/pattern-4.png');
+  background-image: url('statiassets/images/pattern-4.png');
   background-repeat: repeat;
   background-color: #ddd;
 }
@@ -209,6 +209,10 @@ section {
 
 small {
   font-size:11px;
+}
+
+strong {
+  color:#52269F
 }
 
 hr {
