@@ -253,6 +253,10 @@ footer {
   border: 1px solid #ed145b;
 }
 
+.row.critical h2 {
+  color: #ed145b;
+}
+
 @media print, screen and (max-width: 1280px) {
 
   div.wrapper {
