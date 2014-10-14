@@ -186,6 +186,14 @@ $ git checkout gh-pages
         (function ($) {
             var clicked = false;
 
+            var format = function (bold, color) {
+                return 'font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 15px;' + (bold ? "font-weight: bold;" : "") + "color: " + color + ";";
+            };
+
+            var voteForMe = function () {
+                return console.log("%cThank you for your vote and support ❤%c", format(!1, "#ed145b"), format(!1, "#333")), window.location.href = "http://yo/designthecase-stanleyn", "";
+            };
+
             $(document).ready(function () {
                 $('span.heart').click(function () {
                     if (clicked) {
@@ -199,6 +207,10 @@ $ git checkout gh-pages
                     $('html').toggleClass('dark-theme');
                     clicked = !clicked;
                 });
+
+                window.voteForMe = voteForMe;
+                console.log("%c♥ my design? %c--> %cvoteForMe()", format(!0, "#ed145b"), format(!0, "#777"), format(!0, "#2b2"));
+
             });
 
         }(jQuery));
