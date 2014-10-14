@@ -184,8 +184,6 @@ $ git checkout gh-pages
     <script src="javascripts/jquery-2.1.1.min.js"></script>
     <script>
         (function ($) {
-            var clicked = false;
-
             var format = function (bold, color) {
                 return 'font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 15px;' + (bold ? "font-weight: bold;" : "") + "color: " + color + ";";
             };
@@ -196,21 +194,11 @@ $ git checkout gh-pages
 
             $(document).ready(function () {
                 $('span.heart').click(function () {
-                    if (clicked) {
-                        // switch on light
-                        console.log('switch on light!');
-                    }
-                    else {
-                        // switch off light
-                        console.log('switch off light!');
-                    }
                     $('html').toggleClass('dark-theme');
-                    clicked = !clicked;
                 });
 
                 window.voteForMe = voteForMe;
                 console.log("%c♥ my design? %c--> %cvoteForMe()", format(!0, "#ed145b"), format(!0, "#777"), format(!0, "#2b2"));
-
             });
 
         }(jQuery));
