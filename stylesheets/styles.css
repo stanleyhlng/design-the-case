@@ -309,6 +309,7 @@ footer {
 
 .row.critical h2 {
   color: #ed145b;
+  margin: 0;
 }
 
 @media print, screen and (max-width: 1280px) {
