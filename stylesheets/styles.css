@@ -6,6 +6,10 @@ html {
   background-color: #ddd;
 }
 
+html.dark-theme {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
 body {
   padding:50px;
   font:20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -43,6 +47,10 @@ body a:hover{
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
+}
+
+.dark-theme h1, .dark-theme h2, .dark-theme h3, .dark-theme h4, .dark-theme h5, .dark-theme h6 {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 p, ul, ol, table, pre, dl {
@@ -84,6 +92,10 @@ a small {
   border:0 solid red;
   background:none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
   padding:10px;
+}
+
+.dark-theme .wrapper {
+  background:none repeat scroll 0 0 rgba(255, 255, 255, 0.2);
 }
 
 blockquote {
@@ -216,7 +228,11 @@ small {
 }
 
 strong {
-  color:#52269F
+  color:#917ecc;
+}
+
+.dark-theme strong {
+  color:rgba(237, 20, 91, 0.8);
 }
 
 hr {
@@ -265,6 +281,7 @@ footer {
   -o-animation:      animated-heart 5s infinite; /* Opera 12+ */
   animation:         animated-heart 5s infinite; /* IE 10+, Fx 29+ */
   color: #ed145b;
+  cursor: pointer;
 }
 
 .row {
@@ -284,6 +301,10 @@ footer {
   padding:10px;
   background-color:rgba(255,255,255,0.5);
   border: 1px solid #ed145b;
+}
+
+.dark-theme .row.critical {
+  background-color:rgba(255,255,255,0.8);
 }
 
 .row.critical h2 {
@@ -332,6 +353,7 @@ footer {
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
+    font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
   header {
@@ -354,6 +376,7 @@ footer {
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
+    font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
   header ul {
