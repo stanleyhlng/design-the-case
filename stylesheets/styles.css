@@ -304,12 +304,63 @@ footer {
 }
 
 .dark-theme .row.critical {
-  background-color:rgba(255,255,255,0.8);
+  background-color:rgba(255,255,255,1.0);
 }
 
 .row.critical h2 {
   color: #ed145b;
   margin: 0;
+}
+
+.thank-you {
+  background-color: rgba(255,230,100,1.0);
+  padding: 20px;
+  margin: 10px 0;
+  text-align: center;
+  display: none;
+  position: relative;
+}
+.thank-you strong {
+  font-size: 2.0em;
+}
+.thank-you span {
+  font-size: 1.8em;
+}
+
+.thank-you button {
+  color: #917ecc;
+  background: rgba(0,0,0,0);
+  border: solid 1px #917ecc;
+  outline: none;
+}
+.thank-you button:hover {
+  color: #917ecc;
+  border-color: #917ecc;
+}
+.thank-you button:active {
+  color: #917ecc;
+  border-color: #917ecc;
+}
+.dark-theme .thank-you button {
+  color: rgba(237, 20, 91, 0.8);
+  border: solid 1px rgba(237, 20, 91, 0.8);
+}
+.dark-theme .thank-you button:hover {
+  color: rgba(237, 20, 91, 0.8);
+  border-color: rgba(237, 20, 91, 0.8);
+}
+.dark-theme .thank-you button:active {
+  color: rgba(237, 20, 91, 0.8);
+  border-color: rgba(237, 20, 91, 0.8);
+}
+
+.thank-you .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.thank-you-active {
+  display: block;
 }
 
 @media print, screen and (max-width: 1280px) {
