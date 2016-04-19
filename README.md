@@ -1,7 +1,7 @@
 design-the-case
 ===============
 
-Smart Phones, Smart Fun - Design the Case!
+Smart Phones, Smart Fun - Design the Case Competition
 
 ### The Competition
 
