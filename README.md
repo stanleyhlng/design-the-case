@@ -35,18 +35,18 @@ To capture people's attention in my phone case design, I create 2 things to prom
 
 #### 1. Static Design Page
 
-This is a static page to dump all my design concept in one page.  You can checkout the live demo [here](bit.ly/designthecase).
+This is a static page to dump all my design concept in one page.  You can checkout the live demo [here](https://bit.ly/designthecase).
 
-*walk through* the static design page
+(*walk through* the static design page)
 
 [![image](assets/images/walk-through.gif)](https://bit.ly/designthecase)
 
 #### 2. Dynamic Design App 
 
-To make it more fun and eye-catching, I have transformed my design concept into an iOS app.  You can checkout the project page [here](http://bit.ly/ios8_designthecase)
+To make it more fun and eye-catching, I have transformed my design concept into an iOS app.  You can checkout the project page [here](https://bit.ly/ios8_designthecase)
 
-*walk through* the dynamic design app
+(*walk through* the dynamic design app)
 
-[![image](assets/images/ios8_designthecase.gif)](bit.ly/ios8_designthecase)
+[![image](assets/images/ios8_designthecase.gif)](https://bit.ly/ios8_designthecase)
 
 ❤
