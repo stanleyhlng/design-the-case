@@ -31,7 +31,7 @@ In `remark` region, you can select your `personal signature`, `mobile phone no.`
 
 ### Design Promo
 
-To capture people's attention in my phone case design, I create 2 things to promote my work.
+To capture people's attention in my phone case design, I create **TWO** things to promote my work.
 
 #### 1. Static Design Page
 
